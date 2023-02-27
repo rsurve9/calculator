@@ -6,6 +6,8 @@
 trigger:
 - master
 
+pr: none
+
 pool:
  name: az400m05l05a-pool
  demands:
@@ -22,4 +24,5 @@ steps:
     npm run build
     npm test
   displayName: 'npm install, build, and test 1'
+
 
